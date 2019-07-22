@@ -11,7 +11,7 @@ const codes = [
   "a"
 ];
 
-document.body.addEventListener("ArrowDown", function(event) {
+document.body.addEventListener("keydown", function(onKeyDownHandler) {
   alert('I was clicked!');
 });
 
