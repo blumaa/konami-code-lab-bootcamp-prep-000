@@ -33,6 +33,6 @@ function onKeyDownHandler(e) {
      index = 0;
    }
  }
-// function init() {
+ function init() {
 //   // your code here
-// }
+ }
