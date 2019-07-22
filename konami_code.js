@@ -16,23 +16,23 @@ document.body.addEventListener('ArronDown', function(event) {
 });
 
 
-let index = 0;
+// let index = 0;
 
-function onKeyDownHandler(e) {
-  const key = e.key;
+// function onKeyDownHandler(e) {
+//   const key = e.key;
  
-  if (key === alphabet[index]) {
-    index++;
+//   if (key === alphabet[index]) {
+//     index++;
  
-    if (index === alphabet.length) {
-      alert("Hurray!");
+//     if (index === alphabet.length) {
+//       alert("Hurray!");
  
-      index = 0;
-    }
-  } else {
-    index = 0;
-  }
-}
-function init() {
-  // your code here
-}
+//       index = 0;
+//     }
+//   } else {
+//     index = 0;
+//   }
+// }
+// function init() {
+//   // your code here
+// }
